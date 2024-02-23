@@ -1,4 +1,5 @@
 *{
+    font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,8 +14,7 @@
     justify-content: center;
     color:#ffffff;
     padding: 5px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
+    font-weight: 500;
     font-size: 50px;
 }
 .titulo img{
@@ -22,7 +22,7 @@
     height:50%;
 }
 
-.texto {
+.desc-section {
     display: flex;
     background: #000000;
     justify-content: center;
@@ -37,24 +37,20 @@
 }
 
 .contenido p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     text-align: justify;
-    margin-bottom: 50px;
-    font-weight: lighter;
-    color: rgb(241, 235, 235);
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #FFFFFF;
 }
 
 .imagen-izquierda {
     width: 399px;
     height: 237px;
     padding: 40px;
-    border-radius: 50px;
-   
 }
 
-.caracteristicas{
-    font-family: "Open Sans", sans-serif;
+.icons-section{
     align-items: center;
     background: #1E1A13;
     margin-top: 0px;
@@ -62,18 +58,18 @@
     /* justify-content: space-evenly; */
 }
 
-.caracteristicas h2{
-    font-family: "Open Sans", sans-serif;
+.icons-section h2{
     font-size: 50px;
     text-align: center;
     margin-bottom: 50px;
     color: #ffffff;
     font-weight: lighter;
+    font-weight: 500;
 }
 
 .icons {
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     justify-content: space-around;
     width: 80%;
 }
@@ -86,12 +82,14 @@
  .icon i{
     align-items: center;
     font-size: 50px; 
-    color: white;
+    color: #FFFFFF;
 }
 
 .icon  p{
-    color: white;
-    margin-top: 30px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 25px;
 }
 .fotos{
     justify-content: center;
@@ -119,10 +117,9 @@ footer{
 }
 footer p{
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
     font-size: 26px;
-    color:white;
+    color:#FFFFFF;
     padding: 40px;
     display: flex;
-    opacity: 58%;
 }
