@@ -8,6 +8,7 @@
 .titulo{
     justify-content: center;
 }
+
 .titulo h1{
     display: flex;
     background: #000000;
@@ -17,6 +18,7 @@
     font-weight: 500;
     font-size: 50px;
 }
+
 .titulo img{
     width: 100%;
     height:50%;
@@ -31,23 +33,24 @@
 }
 
 .contenido {
-    flex: 1;
     padding: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .contenido p {
     font-size: 16px;
-    text-align: justify;
-    margin-bottom: 30px;
+    text-align: left;
     font-weight: 300;
     color: #FFFFFF;
+    margin-bottom: 10%;
+    width: 475px;
+    left: 150px; 
 }
 
 .imagen-izquierda {
     width: 399px;
     height: 237px;
-    padding: 40px;
+    padding: 76px;
 }
 
 .icons-section{
@@ -55,7 +58,7 @@
     background: #1E1A13;
     margin-top: 0px;
     padding: 50px;
-   
+    
 }
 
 .icons-section h2{
@@ -115,7 +118,6 @@
 footer{
     background:#1E1A13 ;
 }
-
 footer p{
     justify-content: center;
     font-weight: 300;
@@ -124,7 +126,6 @@ footer p{
     padding: 40px;
     display: flex; 
 }
-
 footer  a{
     text-decoration: none;
     color:#FFFFFF;
